@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.card-con{
+    background-color: red;
+    width: 290px;
+    /* border: 2px solid white; */
+    /* min-height: 500px; */
+    margin: auto;
+    padding: 1rem 2rem;
+    background-color: #131313;
+    text-align: center;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    /* box-shadow: ; */
+
+}
+h2{
+    color: #fff;
+    margin: 0;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    font-size: 1.25rem;
+
+}
+p{
+    color: #8C8C8C;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.london{
+    color:  #c5f82a;
+    margin: 0;
+    font-size: 11px;
+    font-weight: 600;
+}
+a{
+    background-color: #1F1F1F;
+    color: #fff;
+
+    /* padding: 0.75rem; */
+    height: 36px;
+    display:flex;
+    gap: 3rem;
+    
+    /* margin-bottom: 1rem; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+}

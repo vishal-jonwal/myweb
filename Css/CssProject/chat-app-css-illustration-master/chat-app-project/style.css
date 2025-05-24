@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+main{
+    /* border: 2px solid black; */
+    height: 100vh;
+    margin-inline: 110px;
+    background-color: #FAFAFA;
+    display: flex;
+    position: relative;
+}
+.left-circle-icon{
+    width: 382px;
+    height: 640px;
+    background-color: #A73DFF;
+    border-bottom-right-radius:300px ;
+    border-bottom-left-radius: 300px;
+}
+.phone-con{
+    height: 460px;
+    /* border: 2px solid black; */
+    width: 228px;
+    padding: 10px;
+    align-self: center;
+    position: absolute;
+    /* margin-right: 500px; */
+    border-radius: 2rem;
+    left: 330px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 5rem black; */
+    box-shadow: 3px 10px 1rem #0000001a;
+
+
+
+}
+.top-con{
+    height: 60px;
+    /* border: 2px solid black; */
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: #B741FE;
+
+}
+.iphone-camera-icon{
+    height: 1rem;
+    width: 118px;
+    /* border: 2px solid black; */
+    margin-inline: auto;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    background-color: #fff;
+}

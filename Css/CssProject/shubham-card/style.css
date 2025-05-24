@@ -1,0 +1,49 @@
+body{
+    background-color: #0D1A2D;
+    font-family: "Outfit";
+}
+
+.card{
+    height: 630px;
+    width: 370px;
+    margin-top: 50px;
+    margin-left: 600PX;
+    border-radius: 16px;
+    background-color: #15273F;
+    padding: 20px;
+    box-sizing: border-box;
+   
+    
+}
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+h2{
+    color: white;
+}
+p{
+    color: #536887;
+}
+.h3 img{
+    width: 11px;
+    margin-right: 10px;
+
+}
+.h3{
+    color: #09FCF9;
+    font-weight: 700;
+    height: 35px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #536887;
+    
+}
+.profile span{
+    color: white;
+}
+.profile img{
+    width: 30px;
+    border:2px solid white;
+    border-radius: 50%;
+
+}

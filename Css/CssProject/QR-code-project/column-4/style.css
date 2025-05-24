@@ -1,0 +1,77 @@
+.orange-con{
+    background-color: orange;
+}
+.green-con{
+    background-color: #006970;
+}
+.dark-green-con{
+    background-color: #004241;
+}
+.card-con{
+    /* margin: 1.5rem; */
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    max-width: 900px;
+}
+.card{
+    display: flex;
+    padding: 2rem;
+    color: #fff;
+    font-family: "Big Shoulders";
+    font-family: "Lexend Deca", sans-serif;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    flex-basis: 100%;
+   
+}
+.card > img{
+    width: 80px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+.card > a {
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    border-radius: 32px;
+    margin-top: auto;
+    margin-right: auto;
+  
+
+
+}
+.card > h2{
+    font-family: "Big Shoulders";
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.card > p{
+    margin-bottom: 3rem;
+    line-height: 1.75;
+}
+/* @media all and  (max-width : 600px){
+    .card-con{
+        flex-direction: column;
+        padding: 1rem;
+        margin-top: auto;
+        max-width: 400px;
+    }
+  
+} */
+@media all and (max-width: 600px) {
+    .card-con {
+        flex-direction: column;
+        max-width: 400px;
+        margin: auto;
+    }
+}

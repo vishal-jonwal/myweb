@@ -1,0 +1,20 @@
+body{
+    background-color: #19A1AD;
+    height: 100vh;
+    display: flex;
+    /* max-width: 100vh; */
+    /* box-sizing: border-box; */
+    display: flex;
+}
+.top-img {
+    position: fixed;
+    margin-left: -30rem;
+    margin-top: -25rem;
+    margin-bottom: 7rem;
+}
+.bottom-img{
+    position: fixed;
+    margin-left: -30rem;
+    margin-top: -25rem;
+    margin-bottom: 7rem;
+}

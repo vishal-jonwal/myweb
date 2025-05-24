@@ -1,0 +1,32 @@
+.hashTag-header{
+   padding: 5rem;
+    background-color: #065fda;
+    color: white;
+    background-image: url(/hash-Project/img/background.png);
+    background-size: 260px;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: -160px;
+    font-family: cursive;
+}
+
+h2{
+    margin:0;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+
+}
+span{
+    font-size: 2rem;
+}
+.hashTag-header img {
+    width: rem;
+    height: 5rem;
+    border-radius: 100%;
+    border: 5px solid white;
+ 
+}
+.hashTag-header img+img {
+    vertical-align: middle;
+    margin-left: -2rem;
+}

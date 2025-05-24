@@ -1,0 +1,84 @@
+/* .parent{
+    background-color: red;
+    height: 100px;
+    overflow: scroll;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    gap: 5px;
+}
+h1 ,a ,span{
+    background-color: blue;
+    border: 2px solid yellow;
+    
+} */
+/* 
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  } */
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  /* @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    } */
+  /* } */
+  @media  (max-width:500px) and (min-width:200px){
+    body {
+        background-color: hotpink;
+    }
+}
+  /* @media (orientation: portrait) and (width > 400px){
+    body {
+        background-color: hotpink;
+    }
+} */
+
+
+/* .square {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    border: 25px solid blue;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+}
+@media (max-width:700px){
+    .square{
+        border: 25px solid red;
+        background-color: yellow;
+    }
+} */
+/* @media (200px <= width <= 500px){
+    .square{
+        border: 25px solid red;
+        background-color: yellow;
+    }
+    
+   
+} */
+/* 
+.f-box{
+    height: 500px;
+    width: 500px;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s-box{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+
+@media print {
+    .square  {
+        border: 25px solid red;
+        background-color: hotpink;
+
+    }
+} */

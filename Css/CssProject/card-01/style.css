@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body {
+    font-family: 'Nunito', sans-serif;
+    /* background-color: #6D838E; */
+  }
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color:#fff; */
+    background-color:#8367C7;
+}
+.card-con{
+    height: 380px;
+    width: 345px;
+    /* border: 2px solid black; */
+    background-color: #F0FFF1;
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: start;
+    color: #5603AD;
+    /* box-shadow: inset red 20px; */
+    box-shadow: inset 0px 0px 7px 0px #000aaa;
+}
+.rich-media{
+    height: 194px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    background-image: url(dear-comrade.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.rich-media img{
+    object-fit: contain;
+    height: 194px;
+
+}
+
+
+i{
+    font-size: 50px;
+    color: #683dd4;
+
+}
+.primary-title h2, p{
+    margin: 0;
+    padding: 0;
+}
+.primary-title p{
+    color: #683dd4;
+
+}
+.action a{
+    /* color:#fff; */
+    text-decoration: none;
+    
+}
+.supporting-title{
+   color: #8367C7;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.ticket-btn {
+  font-family: 'Nunito', sans-serif;
+  background-color: #ff4d4d;  /* Eye-catching red */
+  color: #fff;
+  padding: 3px 6px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  box-shadow: 0 6px 15px rgba(255, 77, 77, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ticket-btn:hover {
+  background-color: #e84343;
+  transform: scale(1.05);
+}
+
+.ticket-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 3px 8px rgba(255, 77, 77, 0.2);
+}

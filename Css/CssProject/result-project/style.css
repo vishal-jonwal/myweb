@@ -1,0 +1,155 @@
+/* lex-direction: column;body{
+    height: 100vh;
+    display: flex;justify-content: center;
+    align-items: center;
+} */
+.card-con{
+    /* background-color:#5EFC; */
+    height: auto;
+    margin: 1rem;
+    /* border: 2px solid black; */
+    border-radius: 2rem;
+    display: flex;
+    max-width: 700px;
+    background-color: #efe8e8;
+    
+}
+.top-con{
+    /* height: 320px; */
+    max-width: 300px;
+    background-color:hsl(250, 97%, 62%);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+
+}
+.result{
+    font-weight: 600;
+    color: rgb(255, 255, 255,0.9);
+    /* display: flex;
+    flex-direction: column; */
+}
+.top-con h2{
+    color: rgb(255, 255, 255,0.9);
+
+}
+.top-con > p {
+    margin: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.top-con > h4 {
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.gol span{
+    color: rgba(255, 255, 255, 0.5);
+
+}
+.gol{
+    height: 125px;
+    width: 125px;
+    background-color: rgba(43, 23, 125, 0.4);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: h */
+    flex-direction: column;
+}
+
+.gol > div{
+    font-size: 4rem;
+}
+bottom con style
+.bottom-con{
+    padding: 1rem;
+    flex-basis: 100%;
+
+    
+
+}
+.reaction{
+    
+    display: flex;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+.reaction img {
+    margin: 0rem 0.5rem;
+}
+.reaction span{
+    margin-left: auto;
+}
+.reaction > *{
+    margin: 0;
+}
+.Memory{
+    
+    display: flex;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+.Memory img {
+    margin: 0rem 0.5rem;
+}
+.Memory span{
+    margin-left: auto;
+}
+.Memory > *{
+    margin: 0;
+}
+.Verbal{
+    
+    display: flex;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+.Verbal img {
+    margin: 0rem 0.5rem;
+}
+.Verbal span{
+    margin-left: auto;
+}
+.Verbal > *{
+    margin: 0;
+}
+.Visual{
+    
+    display: flex;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+}
+.Visual img {
+    margin: 0rem 0.5rem;
+}
+.Visual span{
+    margin-left: auto;
+}
+.Visual > *{
+    margin: 0;
+}
+.bottom-con > * {
+    margin-bottom: 1rem;
+    background-color: #FFF6F7;
+}
+.bottom-con > h2{
+    background-color: white;
+}
+@media (max-width:600px){
+    .card-con{
+        max-width: 350px;
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.card-con{
+    height:400px;
+    width: 350px;
+    background-color: #15A3EF;
+    margin: auto;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+.img-con img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #B7E3FA;
+}
+h1,p,h2{
+    margin: 0;
+    padding: 0;
+}
+.quoet-con h2{
+    text-align: center;
+}

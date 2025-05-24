@@ -1,0 +1,9 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color:palevioletred;
+    transform: scale();
+    transform-origin: 1 1 ;
+    transform: rotate(24deg);
+    transform: translate(200px , 55px);
+}

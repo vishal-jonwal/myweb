@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.hero-section {
+    min-height: 100vh;
+    background-color: #F99501;
+    /* margin: 8px; */
+    background-image: url(/CssProject/deepawali/img/orange-backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* opacity: 0.2; */
+}
+
+.hero-section img {
+    /* border: 2px solid black; */
+}
+
+.para-and-audio {
+    margin-left: 15rem;
+    border: 2px solid black;
+
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #fbd8a4;
+    color: #000;
+}
+.audio-con{
+    background-color: #fbd8a4;
+    max-width: 500px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    gap: 10px;
+    border: 2px solid black;
+
+
+}
+.audio-con span{
+    font-family:"Salsa", cursive ;
+}
+.hero-section p {
+    /* margin-block: 0; */
+    /* border: 2px solid black; */
+    font-size: 46px;
+    font-family: "Salsa", cursive;
+    max-width: 400px;
+    /* margin-left: 15rem; */
+
+    /* font-family: "Style Script", cursive; */
+}
+.jhalar{
+    width: 393px;
+    height: 393px;
+}

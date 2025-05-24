@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-box{
+    width: 20px;
+    height: 20px;
+    /* border: 2px solid black; */
+    margin:5rem;
+    background-image: url(img/Checkbox.svg);
+}
+.custom-box:hover{
+    background-image: url(img/off.svg);
+    background-size: contain;
+}
+.oring-checkbox{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    accent-color: green;
+    display: none;
+   
+}
+.oring-checkbox:checked + label{
+    background-color: rgb(74, 24, 217);
+    background-image: url(img/Vector\ \(Stroke\).svg);
+    background-repeat: no-repeat;
+    
+}
+label{
+    height: 20px;
+    width: 20px;
+    border: 2px solid #C2C2C2;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: auto;
+    
+
+
+}
+label:hover{
+    border-color: #4A18D9;
+}

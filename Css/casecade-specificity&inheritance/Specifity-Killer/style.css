@@ -1,0 +1,22 @@
+li{
+    font-size: 32px;
+}
+[vishal]{
+    color: teal;
+}
+[vishal="html"]{
+    color: blue;
+}
+/* ul p{
+   
+    background-color: greenyellow;
+} */
+.ul p:hover {
+    background-color:orange;
+}
+h2:hover{
+    color: blue;
+}
+[pcolor]:hover{
+    background-color:rgb(110, 231, 10);
+}

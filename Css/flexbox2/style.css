@@ -1,0 +1,48 @@
+.parent{
+    border: 2px solid blue;
+    height: 500px;
+    display: flex;
+    /* max-width: 500px; */
+    /* min-height: 500px; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    align-items: end;
+    /* align-content: start; */
+    gap: 1rem;
+
+}
+a{
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* margin-inline: auto; */
+    height: 200px;
+    order: 1;
+    align-self:center;
+}
+span{
+    order: 4;
+    order: -1;
+}
+p{
+    margin: 0;
+    /* margin: 0 1rem; */
+    /* margin-block:0 ; */
+    /* margin-inline: 1rem; */
+    /* margin-left: 50%; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* width: 200px; */
+   /* margin-top: auto;
+   margin-bottom: auto; */
+    /* margin: auto; */
+    order: 2;
+    
+}
+.parent > *{
+    background-color: red;
+    flex-basis: 200px;
+    /* margin-inline: auto; */
+
+    /* width: 100%; */
+    /* width: 200px; */
+}

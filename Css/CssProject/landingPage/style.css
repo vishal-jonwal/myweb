@@ -1,0 +1,102 @@
+h1 {
+    color: red;
+}
+
+header {
+    background-color: #F2AD98;
+    height: 60px;
+    display: flex;
+}
+
+.header-left {
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 60px;
+    box-sizing: border-box;
+    padding-left: 68px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    /* justify-content: center; */
+}
+
+.header-right {
+    width: 100%;
+    display: flex;
+    /* border: 2px solid black; */
+    height: 60px;
+    box-sizing: border-box;
+    align-items: center;
+    /* display: flex; */
+    /* padding-left: 500px; */
+    /* gap: 10px; */
+    margin-left: 500px;
+    justify-content: space-around;
+}
+
+.logo-con {
+    width: 42px;
+    height: 40px;
+    background-color: black;
+    position: sticky;
+
+}
+
+.logo-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #F2AD98;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.name-website {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.name-exp {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.name-dec {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+
+}
+
+/* style of right header */
+.online-courses p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    /* font-family: ; */
+}
+
+.login-con {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-con i {
+    font-size: 22px;
+}
+
+.login-con p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+.social-con i {
+    /* border: 2px solid black; */
+    margin-left: 15px;
+
+}
+
