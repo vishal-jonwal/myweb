@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <script src="app.js" defer></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-weight: 900;
+            padding: 20px;
+            background-color: #0B3954;
+            color:#BFD7EA;
+        }
+        button{
+            background-color: rgba(255, 0, 0, 0.785);
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 12px;
+            padding: 5px 10px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+        button:hover{
+            background-color: red;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Local Storage</h1>
+    <input id="nameInput" type="text" placeholder="Your Name.." >
+    <input id="AgeInput" type="number" placeholder="Your Age..">
+    <h2>My name is <span class="myName"></span>.</h2>
+    <h3>I am <span class="myAge"></span>.</h3>
+    <button class="removeBtn">Remove</button>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phone Formmter</title>
+    <script src="app.js" defer></script>
+    <style>
+        * {
+            text-align: center;
+        }
+
+
+
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            margin: 0;
+        }
+
+        input {
+            font-size: 24px;
+            text-align: start;
+        }
+    </style>
+</head>
+
+<body>
+    <input id="phone" type="tel" placeholder="mobile number" maxlength="14" autocomplete="off">
+    <p>+(123)-4567890</p>
+</body>
+
+</html>

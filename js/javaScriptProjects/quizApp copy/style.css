@@ -1,0 +1,154 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet'); */
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #50a3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 20px 0px;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 500px;
+    padding: 0px 20px;
+}
+
+.app-con {
+    background-color: #fff;
+    /* height: 348px; */
+    max-width: 500px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.question-area {
+    background-color: #50A3FF;
+    border: 8px solid #0077ff;
+    color: #fff;
+    height: 116px;
+    width: 100%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.question-options {
+    /* border: 2px solid #3090fe; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    /* font-weight: 400; */
+    width: 100%;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    padding-left: 20px;
+    background-color: #fff;
+    color: black;
+}
+
+.timer {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    font-size: 42px;
+    /* font-weight: 500; */
+    border: 8px solid #0077ff;
+
+}
+
+.next-btn {
+    margin-top: 10px;
+    color: #3090fe;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: end;
+    align-self: flex-end;
+}
+.made-with {
+    font-weight: 500;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    margin-top: 42px;
+    /* color: greenyellow; */
+}
+
+.result-con{
+    align-self: flex-end;
+    padding: 0px 30px;
+
+}
+.yourScore{
+    display: none;
+    /* border: 2px solid black; */
+    height: 40px;
+    width: 300px;
+    /* display: none; */
+    position: absolute;
+    /* left: 50%; */
+}
+.green{
+    background-color: green;
+    height: 40px;
+    /* width: 50%; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.red{
+    background-color: red;
+    display: block;
+    height: 40px;
+    /* width: 100%; */flex-grow: 1;
+   
+
+
+}
+@media(max-width : 400px){
+    .app-con{
+        max-width: 390px;
+    }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
+
+        * {
+            font-family: "Roboto", sans-serif;
+        }
+
+        input {
+            font-size: 24px;
+            width: 240px;
+        }
+
+        .start-new {
+            padding: 10px 16px;
+            background-color: #0ff;
+            border: 1px solid grey;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .app-con {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .control-btn {
+            display: flex;
+            align-items: center;
+            justify-content:
+                center;
+            gap: 10px;
+
+        }
+
+        .start-new {
+            font-family: "Roboto", sans-serif;
+
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .output-message,
+        .outputs {
+            display: none;
+        }
+
+        h1 {
+            text-align: center;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px 0px;
+            padding: 1rem 0px;
+            margin: 0;
+            font-weight: 500;
+            font-size: 24px;
+
+        }
+
+        from {
+            width: 500px;
+            text-align: center;
+        }
+    </style>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <h1>Guess the number</h1>
+    <div class="app-con">
+        <form action="#">
+            <p>Enter a guess between 0 to 100</p>
+            <input type="number" id="input" placeholder="Enter a number" autocomplete="off" min="0" max="100" required
+                autofocus>
+            <p class="control-btn">
+                <button class="submit">sumbit</button>
+                <button class="start-new" disabled = "true">start new</button>
+            </p>
+            <p class="output-message"></p>
+            <p class="outputs">Your guesses : </p>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>

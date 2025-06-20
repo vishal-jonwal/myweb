@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script src="app.js" defer></script>
+    <style>
+        * {
+            font-family: sans-serif;
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        main {
+            display: flex;
+            margin: 64px 0px;
+            /* background-color: red; */
+            /* height: 100vh; */
+        }
+
+        .app-con {
+            margin: auto;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        input[type=number]::-webkit-inner-spin-button,
+        input[type=number]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            margin: 0;
+        }
+
+        input {
+            width: 80px;
+            height: 30px;
+            border: 2px solid #a14cf1;
+            border-radius: 4px;
+
+
+
+        }
+
+        #add-btn,
+        #min-btn {
+            width: 40px;
+            height: 40px;
+        }
+
+        #rest-btn {
+            height: 40px;
+            width: 70px;
+        }
+
+        .resutl-display {
+            font-size: 48px;
+        }
+
+        button {
+            background-color: #a14cf1;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #8119e1;
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="app-con">
+            <div class="resutl-display">
+                0
+            </div>
+            <div class="inc-and-dec-btns">
+                <button id="min-btn">-</button>
+                <button id="add-btn">+</button>
+            </div>
+
+            <div class="input-field">
+                <span>Increment/Decrement by : </span>
+                <input type="number" value="1">
+            </div>
+            <div class="rest-btn">
+                <button id="rest-btn">Rest</button>
+            </div>
+
+        </div>
+    </main>
+
+
+</body>
+
+</html>
